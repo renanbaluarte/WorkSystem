@@ -53,5 +53,3 @@ Este programa é software livre: você pode redistribuí-lo e/ou modificá-lo so
 Este programa é distribuído na esperança de que será útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO. Consulte a Licença Pública Geral GNU para obter mais detalhes.
 
 ---
-
-Você pode ajustar e expandir essa descrição conforme necessário, incluindo informações adicionais sobre a implementação, as funcionalidades específicas, o processo de instalação, etc.
