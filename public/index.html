@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkSystem - Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body::before {
+            content: 'Renan Ferreira renandis53@gmail.com';
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            pointer-events: none;
+            user-select: none;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">WorkSystem</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastro de Funcionários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consulta.html">Consulta de Funcionários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ponto.html">Controle de Ponto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ferias.html">Gestão de Férias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="avaliacao.html">Avaliação de Desempenho</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <section id="home">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title">Bem-vindo ao WorkSystem</h2>
+                    <p class="card-text">Gerencie seus funcionários de forma eficiente e eficaz.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        <p>&copy; 2024 WorkSystem. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
