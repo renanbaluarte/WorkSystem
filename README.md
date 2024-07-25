@@ -31,10 +31,6 @@ O WorkSystem é um sistema de gerenciamento de funcionários desenvolvido para s
 5. Inicie o servidor Node.js executando o comando `node server.js`.
 6. Abra o navegador e acesse `http://localhost:3000` para usar o WorkSystem.
 
-## Autor
-
-Este projeto foi desenvolvido por **Renan Dias Ferreira** como parte de [descreva o propósito do projeto, como um projeto pessoal, um projeto acadêmico, etc.].
-Você pode entrar em contato comigo pelo e-mail: renandis53@gmail.com
 
 ## Licença
 
